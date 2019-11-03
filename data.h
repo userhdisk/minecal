@@ -26,23 +26,23 @@
 // List here what items you have
 #define HAVE \
  H(Advanced_Component, 0)\
- H(Mithril_Block, 1)\
+ H(Mithril_Block, 0)\
  H(Basic_Combination, 0)\
  H(Core, 0)\
- H(Advanced_Combination, 1)\
- H(Silver_Ingot, 35 +32 +13 + 22*9)\
- H(Diamond, 99 +6 +81)\
- H(Mese_Crystal , 28*2 +99+31*9)\
- H(Basic_Component , 32*6 + 25)\
- H(Mithril_Ingot , 33 +71)\
+ H(Advanced_Combination, 0)\
+ H(Silver_Ingot, 37*9)\
+ H(Diamond, 99 +94)\
+ H(Mese_Crystal , 33 +99+30*9)\
+ H(Basic_Component , 0)\
+ H(Mithril_Ingot , 99 +25)\
  H(Mese_Block , 0)\
- H(Mese_Crystal_Fragment , 30 + 36 *9)\
- H(Gold_Ingot , 36*9)\
- H(Iron_Ingot , 59 *9 +35)\
- H(Obsidian_Shard , 70 * 9 + 13)\
- H(Bronze_Ingot , 64 * 9 +8)\
- H(Cupper_Ingot , 47)\
- H(Tin_Ingot , 87 +34)\
+ H(Mese_Crystal_Fragment , 36)\
+ H(Gold_Ingot , 13*9 + 58 + 59)\
+ H(Iron_Ingot , 59 *9 +99+30)\
+ H(Obsidian_Shard , 41*9)\
+ H(Bronze_Ingot , 46 * 9 +47)\
+ H(Cupper_Ingot , 10*9+19)\
+ H(Tin_Ingot , 14*9 +18)\
 
 
 //What items you want to craft
