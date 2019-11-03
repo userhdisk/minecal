@@ -90,10 +90,10 @@ WANT
  	if(want[i]){ T(need,(struct buy_item){ i, want[i]},0);}
  }
  
- printf("%30s   \t%30s            \t%30s\n\n","ALL Base Material:","Have (Use) Leftover","You Need to Craft/Mine:");
+ printf("%30s   \t%30s                    \t%30s\n\n","ALL Base Material:","Have (Use) Leftover:","You Need to Craft/Mine:");
  for(int i = 0 ; i < E_size; i++){
  	if(basic[i]){
-	 printf(need[i]?"%30s %d\t%30s %3d (%4d) %3d\t%30s %d\n":"%30s %d\t%30s %3d (%4d) %3d\n", 
+	 printf(need[i]?"%30s %d\t%30s %4d (%5d) %4d\t%30s %d\n":"%30s %d\t%30s %4d (%5d) %4d\n",
 			etos[i],basic[i],
 		       	etos[i],have_all[i],have[i]-have_all[i],have[i], 
 			etos[i],need[i]);
