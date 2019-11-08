@@ -32,22 +32,22 @@
  H(Advanced_Combination, 0)\
  H(Silver_Ingot, 37*9)\
  H(Diamond, 99 +94)\
- H(Mese_Crystal , 33 +99+30*9)\
+ H(Mese_Crystal , 33+99+30*9)\
  H(Basic_Component , 0)\
  H(Mithril_Ingot , 99 +25)\
  H(Mese_Block , 0)\
  H(Mese_Crystal_Fragment , 36)\
- H(Gold_Ingot , 13*9 + 58 + 59)\
+ H(Gold_Ingot , 13*9 + 99 + 99 +13)\
  H(Iron_Ingot , 59 *9 +99+30)\
  H(Obsidian_Shard , 41*9)\
- H(Bronze_Ingot , 46 * 9 +47)\
+ H(Bronze_Ingot , 47 * 9 +74)\
  H(Cupper_Ingot , 10*9+19)\
  H(Tin_Ingot , 14*9 +18)\
 
 
 //What items you want to craft
 #define WANT \
- W(Teleporter, 1)\
+ W(Basic_Locator, 1)\
  //W(Core, 2)\
 
 
